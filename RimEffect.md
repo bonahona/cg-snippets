@@ -1,14 +1,27 @@
-// Data send between vertex and surface/fragment shader needed to be added
+# Rim effect shaders
+
+## Generic setup
+In order to get these rim efefct shaders to work, extent the Input (v2f) struct with worldNormal and viewDir variables.
+Unity will automatically populate these once added.
+```
 struct Input {
 	float3 worldNormal;
 	float3 viewDir;
 };
+```
 
-// Calculate rim effect
+## Variant 01
+```
 float border = 1 - (abs(dot(IN.viewDir, IN.worldNormal)));
 float alpha = (border * (1 - _DotProduct) + _DotProduct);
+```
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/ManaShieldShow.gif "Rim effect variant 01")
 
-// Alternative (smoother) rimeffect)
+## Variant 02
+Alternative (smoother) rimeffect.
+```
 float border = 1 - (dot(IN.worldNormal, IN.viewDir));
 float rimFactor = pow(border, _RimEffect);
 float alpha = border;
+```
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/SpectralDaggerShow.gif "Rim effect variant 01")
