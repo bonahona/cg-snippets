@@ -15,7 +15,7 @@ All CG code should be usable is HLSL as HLSL is a superset of CG.
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/ManaShieldShow.gif "Rim effect variant 01")
 
 
-[otate Around Center](../blob/master/RotateAroundCenter.md)
+[Rotate Around Center](../blob/master/RotateAroundCenter.md)
 
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/Rotation.gif "Rotation effect")
 
