@@ -7,3 +7,16 @@ Most are not complete and usable as-is. The purpose is to copy the snippet and a
 
 Most the code is written for the CG programming language. Snippets in [HLSL](https://docs.microsoft.com/en-us/windows/desktop/direct3dhlsl/dx-graphics-hlsl, "HLSL Guide")/[GSL](https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language "GSL Guide") will say so explicitly.
 All CG code should be usable is HLSL as HLSL is a superset of CG.
+
+## Snippets
+
+[### Rim Effects](../blob/master/RimEffects.md)
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/ManaShieldShow.gif "Rim effect variant 01")
+
+
+[### Rotate Around Center](../blob/master/RotateAroundCenter.md)
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/Rotation.gif "Rotation effect")
+
+
+[### Vertex Displacement](../blob/master/VertexDisplacement.md)
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/VertexDisplacement.gif "Vertex displacement")
