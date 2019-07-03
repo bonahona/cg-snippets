@@ -14,6 +14,9 @@ struct Input {
 ```
 float border = 1 - (abs(dot(IN.viewDir, IN.worldNormal)));
 float alpha = (border * (1 - _DotProduct) + _DotProduct);
+
+o.Emission = (primary.rgb + secondary.rgb);
+o.Alpha = max(0,(primary.a * secondary.a * alpha) - _DrawTreshold);
 ```
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/ManaShieldShow.gif "Rim effect variant 01")
 
@@ -26,5 +29,9 @@ Alternative (smoother) rimeffect.
 float border = 1 - (dot(IN.worldNormal, IN.viewDir));
 float rimFactor = pow(border, _RimEffect);
 float alpha = border;
+
+o.Albedo = c.rgb;
+o.Emission = _RimColor * rimFactor;
+o.Alpha = alpha;
 ```
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/SpectralDaggerShow.gif "Rim effect variant 01")
