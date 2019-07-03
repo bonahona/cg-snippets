@@ -10,16 +10,16 @@ All CG code should be usable is HLSL as HLSL is a superset of CG.
 
 ## Snippets
 
-[Rim Effects](../blob/master/RimEffects.md)
+[Rim Effects](../master/RimEffects.md)
 
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/ManaShieldShow.gif "Rim effect variant 01")
 
 
-[Rotate Around Center](../blob/master/RotateAroundCenter.md)
+[Rotate Around Center](../master/RotateAroundCenter.md)
 
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/Rotation.gif "Rotation effect")
 
 
-[Vertex Displacement](../blob/master/VertexDisplacement.md)
+[Vertex Displacement](../master/VertexDisplacement.md)
 
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/VertexDisplacement.gif "Vertex displacement")
