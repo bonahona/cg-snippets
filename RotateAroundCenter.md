@@ -13,6 +13,6 @@ i.uv = mul(rot, uv2);
 i.uv += pivot;
 i.uv = clamp(i.uv, 0, 1);
 ```
-![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/blob/master/Images/Rotation.gif "Rotation effect")
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/Rotation.gif "Rotation effect")
 
 If you plan on doing effects like this I strongly suggest just rotation the game object instead.

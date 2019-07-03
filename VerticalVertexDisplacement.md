@@ -11,4 +11,4 @@ void vert(inout appdata_full v) {
 	v.vertex.xyz = position;
 }
 
-![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/blob/master/Images/VertexDisplacement.gif "Rotation effect")
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/VertexDisplacement.gif "Rotation effect")
