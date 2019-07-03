@@ -10,7 +10,7 @@ All CG code should be usable is HLSL as HLSL is a superset of CG.
 
 ## Snippets
 
-[Rim Effects](../master/RimEffects.md)
+[Rim Effects](../master/RimEffect.md)
 
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/ManaShieldShow.gif "Rim effect variant 01")
 
