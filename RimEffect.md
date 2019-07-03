@@ -34,4 +34,4 @@ o.Albedo = c.rgb;
 o.Emission = _RimColor * rimFactor;
 o.Alpha = alpha;
 ```
-![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/SpectralDaggerShow.gif "Rim effect variant 01")
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/SpectralDaggerShow.gif "Rim effect variant 02")
