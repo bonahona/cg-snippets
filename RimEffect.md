@@ -1,7 +1,7 @@
 # Rim effect shaders
 
 ## Generic setup
-In order to get these rim efefct shaders to work, extent the Input (v2f) struct with worldNormal and viewDir variables.
+In order to get these rim effect shaders to work, extend the Input (v2f) struct with worldNormal and viewDir variables.
 Unity will automatically populate these once added.
 ```
 struct Input {
