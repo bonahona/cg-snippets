@@ -16,6 +16,7 @@ float border = 1 - (abs(dot(IN.viewDir, IN.worldNormal)));
 float alpha = (border * (1 - _DotProduct) + _DotProduct);
 ```
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/ManaShieldShow.gif "Rim effect variant 01")
+
 (As you migh guess this example also uses some UV offsetting for its effect.)
 
 ## Variant 02
