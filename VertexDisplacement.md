@@ -3,7 +3,7 @@
 All magic in a vertex displacement shader takes place in the vertex shader(obviously).
 Most include manipulation of the vertex position put sometimes it also includes its normal and UV cordinates.
 
-## Dipslace over time base on world position
+## Displace over time base on world position
 ```
 void vert(inout appdata_full v) {
 	half3  position = v.vertex.xyz;
