@@ -24,7 +24,7 @@ o.Alpha = max(0,(primary.a * secondary.a * alpha) - _DrawTreshold);
 
 ## Variant 02
 Alternative (smoother) rimeffect.
-'_RimEffect' is a fixed with an expected range of 0 - 10 and sets how strong the effet should be.
+'_RimEffect' is a fixed with an expected range of 0 - 10 and sets how strong the effect should be.
 ```
 float border = 1 - (dot(IN.worldNormal, IN.viewDir));
 float rimFactor = pow(border, _RimEffect);
