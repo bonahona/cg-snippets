@@ -38,6 +38,8 @@ void vert(inout appdata_full v){
 
 ## Displace based on normals
 Displaces the vertex "forward" based on their normal direction.
+
+(This shader also uses a grab pass display the underlying render buffer displaced and heavy alpha in the middle (with a Rim effect) to display the underlying render buffer unaltered).
 ```
 half4 pos = UnityObjectToClipPos(v.vertex);
 o._uvGrabTex = ComputeGrabScreenPos(pos);
