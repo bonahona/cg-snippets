@@ -34,3 +34,14 @@ void vert(inout appdata_full v){
 	v.normal = normal;
 }
 ```
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/VertexDisplacementFlags.gif "Vertex displacement")
+
+## Displace based on normals
+Displaces the vertex "forward" based on their normal direction.
+```
+half4 pos = UnityObjectToClipPos(v.vertex);
+o._uvGrabTex = ComputeGrabScreenPos(pos);
+float3 worldPos = mul (unity_ObjectToWorld, v.vertex).xyz;
+v.vertex.xyz += v.normal * sin((_Time * 5) + worldPos.xyz) * 0.1;
+```
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/VertexDisplacementNormal.gif "Vertex displacement")
