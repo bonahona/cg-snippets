@@ -23,3 +23,7 @@ All CG code should be usable is HLSL as HLSL is a superset of CG.
 [Vertex Displacement](../master/VertexDisplacement.md)
 
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/VertexDisplacement.gif "Vertex displacement")
+
+[Grab pass](../master/GrabPass.md)
+
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/Water.gif "WaterShader")
