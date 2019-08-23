@@ -3,6 +3,8 @@
 Decal shaders covers the area of where their mesh is rendered on top of the existing geometry without adding new geometry.
 
 ## Unlit Decal shader
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/UnlitDecalShader.png "Unlit decal shader")
+
 ```
 Shader "MageQuest/DecalUnlitShader"
 {
@@ -84,4 +86,3 @@ Shader "MageQuest/DecalUnlitShader"
 }
 
 ```
-![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/UnlitDecalShader.png "Unlit decal shader")
