@@ -15,9 +15,9 @@ All CG code should be usable is HLSL as HLSL is a superset of CG.
 ![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/ManaShieldShow.gif "Rim effect variant 01")
 
 
-[Rotate Around Center](../master/DecalShaders.md)
+[Decal shaders](../master/DecalShaders.md)
 
-![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/UnlitDecalShader.gif "Rotation effect")
+![alt text](https://raw.githubusercontent.com/bonahona/cg-snippets/master/Images/UnlitDecalShader.png "Rotation effect")
 
 [Rotate Around Center](../master/RotateAroundCenter.md)
 
